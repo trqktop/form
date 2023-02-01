@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body class="page">
+    <header></header>
+    <main class="content">
+        <section class="form">
+            <div class="form__image"></div>
+            <h1 class="form__title">Авторизация</h1>
+            <form name="user-edit" action="#" class="form__edit-form" novalidate>
+                <div class="form__fieldset">
+                    <input class="form__input" value="" placeholder="Email или телефон" type="text" id="login"
+                        name="login" minlength="2" maxlength="40" required>
+                </div>
+                <div class="form__fieldset">
+                    <input class="form__input" value="" type="password" placeholder="Пароль" id="password"
+                        name="userabout" minlength="2" maxlength="200" required>
+                </div>
+                <button type="submit" name="submit" class="form__submit" id="submit">Сохранить</button>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
