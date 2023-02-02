@@ -25,6 +25,7 @@ form.addEventListener('submit', e => {
             else {
                 showDoneStatus()
                 document.cookie = res.token
+                loginStatusText.textContent = `${res.user.name}, Вы успешно авторизованы!`
             }
         })
         .catch(err => {
