@@ -1,0 +1,12 @@
+.form__error {
+    height: 16px;
+    display: block;
+    color: red;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    visibility: hidden;
+    font-style: italic;
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+}

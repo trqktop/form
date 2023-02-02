@@ -1,0 +1,9 @@
+
+.form__input-load-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 26px;
+    visibility: hidden;
+}

@@ -1,0 +1,14 @@
+
+
+.form__input-label {
+    position: absolute;
+    left: 11px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    border-radius: 4px;
+    cursor: text;
+    height: 26px;
+    width: 26px;
+}

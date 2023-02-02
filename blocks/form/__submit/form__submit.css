@@ -1,0 +1,32 @@
+.form__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    width: 175px;
+    height: 48px;
+    cursor: pointer;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, #B7903B 0%, #CFAA59 100%);
+    border-radius: 4px;
+
+
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form__submit:hover {
+    transform: scale(1.01);
+    filter: contrast(120%);
+}
+
+.form__submit:active {
+    filter: contrast(80%);
+}

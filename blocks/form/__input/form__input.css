@@ -1,0 +1,16 @@
+.form__input {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    outline: none;
+    padding: 15px;
+    padding-left: 48px;
+    width: 457px;
+    height: 48px;
+
+
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}

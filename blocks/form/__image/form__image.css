@@ -1,0 +1,8 @@
+.form__image {
+    background-image: url('../../../images/photo1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 192px;
+    height: 192px;
+}
