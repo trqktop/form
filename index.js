@@ -6,6 +6,8 @@ const loginInput = form.querySelector('#login')
 const loadBars = Array.from(form.querySelectorAll('.form__input-load-bar'))
 const error = form.querySelector('.form__error')
 const button = form.querySelector('.form__submit')
+const formContainer = document.querySelector('.form__container')
+const loginStatusText = document.querySelector('.form__login-status')
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -22,6 +24,7 @@ form.addEventListener('submit', e => {
             }
             else {
                 showDoneStatus()
+                document.cookie = res.token
             }
         })
         .catch(err => {
@@ -36,6 +39,10 @@ form.addEventListener('submit', e => {
         })
 })
 
+
+
+
+
 function showLoadBar() {
     loadBars.forEach(load => load.classList.add('form__input-load-bar_load'))
 }
@@ -45,6 +52,10 @@ function hideLoadBar() {
 function showDoneStatus() {
     passwordInput.classList.add('form__input_done')
     loginInput.classList.add('form__input_done')
+    setTimeout(() => {
+        formContainer.classList.add('form__container_hidden')
+        loginStatusText.classList.add('form__login-status_visible')
+    }, 200)
 }
 function showError(err) {
     error.textContent = err.toString().replace('Error:', '')

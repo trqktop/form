@@ -1,0 +1,9 @@
+.form__login-status {
+    display: none;
+    font-family: 'Roboto-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #363636;
+}
